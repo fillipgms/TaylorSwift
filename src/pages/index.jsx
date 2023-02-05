@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Eras from "../components/ErasSection";
+import InfoSection from "../components/InfoSection";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/sidebar";
@@ -26,7 +26,7 @@ const Home = () => {
             <Navbar toggle={toggle} scrolled={scrolled} isOpen={isOpen} />
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <HeroSection />
-            <Eras />
+            <InfoSection />
         </>
     );
 };

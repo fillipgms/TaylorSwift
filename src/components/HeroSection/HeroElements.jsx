@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
 export const HeroContainer = styled.section`
     background: #0c0c0c;
@@ -20,6 +20,7 @@ export const HeroBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
+    z-index: -1;
 `;
 
 export const VideoBg = styled.video`

@@ -15,9 +15,6 @@ import { AiOutlinePlayCircle } from "react-icons/ai";
 const HeroSection = () => {
     return (
         <HeroContainer>
-            <HeroBg>
-                <VideoBg src={Video} autoPlay loop muted type="video/mp4" />
-            </HeroBg>
             <HeroContent>
                 <MvContainer>
                     <MvTittle>
@@ -35,6 +32,9 @@ const HeroSection = () => {
                     </a>
                 </MvContainer>
             </HeroContent>
+            <HeroBg>
+                <VideoBg src={Video} autoPlay loop muted type="video/mp4" />
+            </HeroBg>
         </HeroContainer>
     );
 };

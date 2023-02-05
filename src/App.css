@@ -3,20 +3,49 @@
     src: url(./fonts/NeueHaasDisplayMediu.ttf);
 }
 
-html::-webkit-scrollbar {
-    width: 16px;
+@font-face {
+    font-family: Satisfaction;
+    src: url(./fonts/Satisfaction.ttf);
 }
 
-html::-webkit-scrollbar-track {
-    width: 90px;
-    display: none;
+@font-face {
+    font-family: Carla;
+    src: url(./fonts/CarlaSans.otf);
 }
 
-html::-webkit-scrollbar-thumb {
-    border-radius: 8px;
-    border: 3px solid transparent;
-    background-clip: content-box;
-    background-color: #d5b8d8;
+@font-face {
+    font-family: Handwriting;
+    src: url(./fonts/Taylor\ Swift\ Handwriting.ttf);
+}
+
+@font-face {
+    font-family: Soulmate;
+    src: url(./fonts/Soulmate.ttf);
+}
+
+@font-face {
+    font-family: Optienglish;
+    src: url(./fonts/OPTIEngraversOldEnglish.otf);
+}
+
+@font-face {
+    font-family: FeNit;
+    src: url(./fonts/FeENit2.ttf);
+}
+
+@font-face {
+    font-family: Imfell;
+    src: url(./fonts/IMFePIit28P.ttf);
+}
+
+@font-face {
+    font-family: Tanohe;
+    src: url(./fonts/TanoheSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Sudestada;
+    src: url(./fonts/Sudestada.ttf);
 }
 
 * {
